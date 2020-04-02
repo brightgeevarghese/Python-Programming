@@ -1,7 +1,7 @@
 import socket
 
 # create a socket object
-s = socket.socket()
+s = socket.socket()  # s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 # Associate socket object with a port number (0 to 65535)
 # to reserve a port number for our service
 s.bind(('127.0.0.1', 2500))
